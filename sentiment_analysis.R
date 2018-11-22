@@ -124,7 +124,11 @@ ggplot(sentiment_bydate, aes(date, sentiment, color = sentiment)) +
 
 # What's more?
 # There is another lexicon within the tidytext package, try:
+
 get_sentiments("nrc")
+
+# The NRC lexicon contain words for emotion, you could try and apply the lexicon by
+# altering the above codes.
   
 
 
