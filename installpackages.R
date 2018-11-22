@@ -1,0 +1,6 @@
+install.packages("quanteda")
+install.packages("magrittr")
+install.packages("tidytext")
+install.packages("ggplot2")
+install.packages("lubridate")
+install.packages("dplyr")
